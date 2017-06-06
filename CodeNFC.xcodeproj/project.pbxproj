@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC24E1CB1EE7345E000B0AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24E1CA1EE7345E000B0AEA /* AppDelegate.swift */; };
+		BC24E1CD1EE7345E000B0AEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24E1CC1EE7345E000B0AEA /* ViewController.swift */; };
+		BC24E1D01EE7345E000B0AEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC24E1CE1EE7345E000B0AEA /* Main.storyboard */; };
+		BC24E1D31EE7345E000B0AEA /* CodeNFC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC24E1D11EE7345E000B0AEA /* CodeNFC.xcdatamodeld */; };
+		BC24E1D51EE7345F000B0AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC24E1D41EE7345F000B0AEA /* Assets.xcassets */; };
+		BC24E1D81EE7345F000B0AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC24E1D61EE7345F000B0AEA /* LaunchScreen.storyboard */; };
+		BC24E1E31EE7345F000B0AEA /* CodeNFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24E1E21EE7345F000B0AEA /* CodeNFCTests.swift */; };
+		BC24E1EE1EE7345F000B0AEA /* CodeNFCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC24E1ED1EE7345F000B0AEA /* CodeNFCUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC24E1DF1EE7345F000B0AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC24E1BF1EE7345E000B0AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC24E1C61EE7345E000B0AEA;
+			remoteInfo = CodeNFC;
+		};
+		BC24E1EA1EE7345F000B0AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC24E1BF1EE7345E000B0AEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC24E1C61EE7345E000B0AEA;
+			remoteInfo = CodeNFC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC24E1C71EE7345E000B0AEA /* CodeNFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeNFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC24E1CA1EE7345E000B0AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC24E1CC1EE7345E000B0AEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC24E1CF1EE7345E000B0AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC24E1D21EE7345E000B0AEA /* CodeNFC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CodeNFC.xcdatamodel; sourceTree = "<group>"; };
+		BC24E1D41EE7345F000B0AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC24E1D71EE7345F000B0AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC24E1D91EE7345F000B0AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC24E1DE1EE7345F000B0AEA /* CodeNFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeNFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC24E1E21EE7345F000B0AEA /* CodeNFCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNFCTests.swift; sourceTree = "<group>"; };
+		BC24E1E41EE7345F000B0AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC24E1E91EE7345F000B0AEA /* CodeNFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeNFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC24E1ED1EE7345F000B0AEA /* CodeNFCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeNFCUITests.swift; sourceTree = "<group>"; };
+		BC24E1EF1EE7345F000B0AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC24E1C41EE7345E000B0AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC24E1DB1EE7345F000B0AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC24E1E61EE7345F000B0AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC24E1BE1EE7345E000B0AEA = {
+			isa = PBXGroup;
+			children = (
+				BC24E1C91EE7345E000B0AEA /* CodeNFC */,
+				BC24E1E11EE7345F000B0AEA /* CodeNFCTests */,
+				BC24E1EC1EE7345F000B0AEA /* CodeNFCUITests */,
+				BC24E1C81EE7345E000B0AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC24E1C81EE7345E000B0AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC24E1C71EE7345E000B0AEA /* CodeNFC.app */,
+				BC24E1DE1EE7345F000B0AEA /* CodeNFCTests.xctest */,
+				BC24E1E91EE7345F000B0AEA /* CodeNFCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC24E1C91EE7345E000B0AEA /* CodeNFC */ = {
+			isa = PBXGroup;
+			children = (
+				BC24E1CA1EE7345E000B0AEA /* AppDelegate.swift */,
+				BC24E1CC1EE7345E000B0AEA /* ViewController.swift */,
+				BC24E1CE1EE7345E000B0AEA /* Main.storyboard */,
+				BC24E1D41EE7345F000B0AEA /* Assets.xcassets */,
+				BC24E1D61EE7345F000B0AEA /* LaunchScreen.storyboard */,
+				BC24E1D91EE7345F000B0AEA /* Info.plist */,
+				BC24E1D11EE7345E000B0AEA /* CodeNFC.xcdatamodeld */,
+			);
+			path = CodeNFC;
+			sourceTree = "<group>";
+		};
+		BC24E1E11EE7345F000B0AEA /* CodeNFCTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC24E1E21EE7345F000B0AEA /* CodeNFCTests.swift */,
+				BC24E1E41EE7345F000B0AEA /* Info.plist */,
+			);
+			path = CodeNFCTests;
+			sourceTree = "<group>";
+		};
+		BC24E1EC1EE7345F000B0AEA /* CodeNFCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC24E1ED1EE7345F000B0AEA /* CodeNFCUITests.swift */,
+				BC24E1EF1EE7345F000B0AEA /* Info.plist */,
+			);
+			path = CodeNFCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC24E1C61EE7345E000B0AEA /* CodeNFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC24E1F21EE7345F000B0AEA /* Build configuration list for PBXNativeTarget "CodeNFC" */;
+			buildPhases = (
+				BC24E1C31EE7345E000B0AEA /* Sources */,
+				BC24E1C41EE7345E000B0AEA /* Frameworks */,
+				BC24E1C51EE7345E000B0AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeNFC;
+			productName = CodeNFC;
+			productReference = BC24E1C71EE7345E000B0AEA /* CodeNFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC24E1DD1EE7345F000B0AEA /* CodeNFCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC24E1F51EE7345F000B0AEA /* Build configuration list for PBXNativeTarget "CodeNFCTests" */;
+			buildPhases = (
+				BC24E1DA1EE7345F000B0AEA /* Sources */,
+				BC24E1DB1EE7345F000B0AEA /* Frameworks */,
+				BC24E1DC1EE7345F000B0AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC24E1E01EE7345F000B0AEA /* PBXTargetDependency */,
+			);
+			name = CodeNFCTests;
+			productName = CodeNFCTests;
+			productReference = BC24E1DE1EE7345F000B0AEA /* CodeNFCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC24E1E81EE7345F000B0AEA /* CodeNFCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC24E1F81EE7345F000B0AEA /* Build configuration list for PBXNativeTarget "CodeNFCUITests" */;
+			buildPhases = (
+				BC24E1E51EE7345F000B0AEA /* Sources */,
+				BC24E1E61EE7345F000B0AEA /* Frameworks */,
+				BC24E1E71EE7345F000B0AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC24E1EB1EE7345F000B0AEA /* PBXTargetDependency */,
+			);
+			name = CodeNFCUITests;
+			productName = CodeNFCUITests;
+			productReference = BC24E1E91EE7345F000B0AEA /* CodeNFCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC24E1BF1EE7345E000B0AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DDanilov;
+				TargetAttributes = {
+					BC24E1C61EE7345E000B0AEA = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					BC24E1DD1EE7345F000B0AEA = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = BC24E1C61EE7345E000B0AEA;
+					};
+					BC24E1E81EE7345F000B0AEA = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = BC24E1C61EE7345E000B0AEA;
+					};
+				};
+			};
+			buildConfigurationList = BC24E1C21EE7345E000B0AEA /* Build configuration list for PBXProject "CodeNFC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC24E1BE1EE7345E000B0AEA;
+			productRefGroup = BC24E1C81EE7345E000B0AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC24E1C61EE7345E000B0AEA /* CodeNFC */,
+				BC24E1DD1EE7345F000B0AEA /* CodeNFCTests */,
+				BC24E1E81EE7345F000B0AEA /* CodeNFCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC24E1C51EE7345E000B0AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24E1D81EE7345F000B0AEA /* LaunchScreen.storyboard in Resources */,
+				BC24E1D51EE7345F000B0AEA /* Assets.xcassets in Resources */,
+				BC24E1D01EE7345E000B0AEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC24E1DC1EE7345F000B0AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC24E1E71EE7345F000B0AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC24E1C31EE7345E000B0AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24E1D31EE7345E000B0AEA /* CodeNFC.xcdatamodeld in Sources */,
+				BC24E1CD1EE7345E000B0AEA /* ViewController.swift in Sources */,
+				BC24E1CB1EE7345E000B0AEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC24E1DA1EE7345F000B0AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24E1E31EE7345F000B0AEA /* CodeNFCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC24E1E51EE7345F000B0AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24E1EE1EE7345F000B0AEA /* CodeNFCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC24E1E01EE7345F000B0AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC24E1C61EE7345E000B0AEA /* CodeNFC */;
+			targetProxy = BC24E1DF1EE7345F000B0AEA /* PBXContainerItemProxy */;
+		};
+		BC24E1EB1EE7345F000B0AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC24E1C61EE7345E000B0AEA /* CodeNFC */;
+			targetProxy = BC24E1EA1EE7345F000B0AEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC24E1CE1EE7345E000B0AEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC24E1CF1EE7345E000B0AEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC24E1D61EE7345F000B0AEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC24E1D71EE7345F000B0AEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC24E1F01EE7345F000B0AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC24E1F11EE7345F000B0AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC24E1F31EE7345F000B0AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HNSKHY5LC;
+				INFOPLIST_FILE = CodeNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddanilov.CodeNFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC24E1F41EE7345F000B0AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6HNSKHY5LC;
+				INFOPLIST_FILE = CodeNFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddanilov.CodeNFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC24E1F61EE7345F000B0AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6HNSKHY5LC;
+				INFOPLIST_FILE = CodeNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddanilov.CodeNFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeNFC.app/CodeNFC";
+			};
+			name = Debug;
+		};
+		BC24E1F71EE7345F000B0AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6HNSKHY5LC;
+				INFOPLIST_FILE = CodeNFCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddanilov.CodeNFCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeNFC.app/CodeNFC";
+			};
+			name = Release;
+		};
+		BC24E1F91EE7345F000B0AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6HNSKHY5LC;
+				INFOPLIST_FILE = CodeNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddanilov.CodeNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeNFC;
+			};
+			name = Debug;
+		};
+		BC24E1FA1EE7345F000B0AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6HNSKHY5LC;
+				INFOPLIST_FILE = CodeNFCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddanilov.CodeNFCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeNFC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC24E1C21EE7345E000B0AEA /* Build configuration list for PBXProject "CodeNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC24E1F01EE7345F000B0AEA /* Debug */,
+				BC24E1F11EE7345F000B0AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC24E1F21EE7345F000B0AEA /* Build configuration list for PBXNativeTarget "CodeNFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC24E1F31EE7345F000B0AEA /* Debug */,
+				BC24E1F41EE7345F000B0AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC24E1F51EE7345F000B0AEA /* Build configuration list for PBXNativeTarget "CodeNFCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC24E1F61EE7345F000B0AEA /* Debug */,
+				BC24E1F71EE7345F000B0AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC24E1F81EE7345F000B0AEA /* Build configuration list for PBXNativeTarget "CodeNFCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC24E1F91EE7345F000B0AEA /* Debug */,
+				BC24E1FA1EE7345F000B0AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC24E1D11EE7345E000B0AEA /* CodeNFC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC24E1D21EE7345E000B0AEA /* CodeNFC.xcdatamodel */,
+			);
+			currentVersion = BC24E1D21EE7345E000B0AEA /* CodeNFC.xcdatamodel */;
+			path = CodeNFC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BC24E1BF1EE7345E000B0AEA /* Project object */;
+}
